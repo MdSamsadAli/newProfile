@@ -1,0 +1,133 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container-flued {
+    width: 100%;
+    height: 100vh;
+
+}
+header {
+    width: 80%;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+.header-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+.header-section .logo h1 {
+    background-color: black;
+    color: white;
+    border-radius: 100%;
+    padding: 10px;
+    margin: 0;
+    /*box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85) 0px 0px 0px 15px;*/
+    box-shadow: rgba(25, 46, 70, 0.4) 5px 5px, rgba(24, 46, 170, 0.3) 10px 10px, rgba(40, 46, 70, 0.2) 15px 15px, rgba(25, 26, 70, 0.1) 20px 20px, rgba(255, 46, 170, 0.05) 25px 25px;
+}
+.header-section ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin:0;
+}
+.header-section ul li {
+    list-style: none;
+    font-size: 24px;
+    margin-left: 14px;
+}
+
+.header-section .navigation-part ul li {
+    margin-left: 25px;
+}
+.header-section ul li a {
+    text-decoration: none;
+    color: black;
+}
+.header-section .navigation-part ul li a:hover {
+    border-bottom: 2px solid;
+}
+ul li a{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    border-radius: 40px;
+    padding: 8px;
+}
+.social-links ul li a:hover {
+    color: green;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+.row .text-col {
+    width: 50%;
+}
+.text-col h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    line-height: 1.4;
+    width: 60%;
+}
+.btn button {
+    background-color: #ccccff;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    /*box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;*/
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.btn button:last-child{
+    background: gray;
+    color: white;
+    margin-left: 10px;
+}
+.btn button:last-child:hover{
+    background-color: black;
+    color: white;
+}
+
+img {
+    border-radius: 50% 0% 50% 50%;
+    width: 400px;
+    height: 100%;
+    box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85) 0px 0px 0px 15px;
+    transition: all 10s ease-in-out;
+
+}
+img:hover {
+    /*box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;*/
+    box-shadow: blue 0px 0px 0px 2px inset, rgb(255, 255, 255) 10px -10px 0px -3px, rgb(31, 193, 27) 10px -10px, rgb(255, 255, 255) 20px -20px 0px -3px, rgb(255, 217, 19) 20px -20px, rgb(255, 255, 255) 30px -30px 0px -3px, rgb(255, 156, 85) 30px -30px, rgb(255, 255, 255) 40px -40px 0px -3px, rgb(255, 85, 85) 40px -40px;
+}
+button {
+    background-color: transparent;
+    border-radius: 50px;
+    padding: 8px 14px;
+    border: 1px solid;
+    outline: none;
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+
+}
+button:hover {
+    background: black;
+    color: white;
+}
+
+
+.ball {
+  border-radius: 25px;
+  width: 50px;
+  height: 50px;
+  background: #c00;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: transform 1s;
+}
